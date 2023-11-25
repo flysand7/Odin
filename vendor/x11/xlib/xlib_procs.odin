@@ -72,7 +72,7 @@ foreign xlib {
 	XDoesBackingStore    :: proc(screen: ^Screen) -> BackingStore ---
 	XDoesSaveUnders      :: proc(screen: ^Screen) -> b32 ---
 	XDisplayOfScreen     :: proc(screen: ^Screen) -> ^Display ---
-	XScreenNumberOfScreens :: proc(screen: ^Screen) -> i32 ---
+	XScreenNumberOfScreen :: proc(screen: ^Screen) -> i32 ---
 	XEventMaskOfScreen   :: proc(screen: ^Screen) -> EventMask ---
 	XWidthOfScreen       :: proc(screen: ^Screen) -> i32 ---
 	XHeightOfScreen      :: proc(screen: ^Screen) -> i32 ---
